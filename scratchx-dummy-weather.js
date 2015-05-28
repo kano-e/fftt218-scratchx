@@ -7,7 +7,7 @@
 
   ext.weatherDummy = function(callback) {
     $.ajax({
-      url: 'https://kano-e.github.io/fftt218-scratchx/weather-dummy.json',
+      url: 'https://kano-e.github.io/fftt218-scratchx/dummy-weather.json',
       dataType: 'jsonp',
       success: function(data) {
         callback(data['weather']['title']);
