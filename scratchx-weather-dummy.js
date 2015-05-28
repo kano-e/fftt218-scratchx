@@ -17,7 +17,7 @@
 
   var descriptor = {
     blocks: [
-      ['r', 'weather dummy %s', 'weatherDummy']
+      ['R', 'weather dummy', 'weatherDummy']
     ]
   };
 
