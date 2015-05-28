@@ -5,7 +5,7 @@
     return {status: 2, msg: 'Ready'};
   };
 
-  ext.hello = function(callback) {
+  ext.weatherDummy = function(callback) {
     $.ajax({
       url: 'https://kano-e.github.io/fftt218-scratchx/weather-dummy.json',
       dataType: 'jsonp',
