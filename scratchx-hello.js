@@ -5,15 +5,15 @@
         return {status: 2, msg: 'Ready'};
     };
 
-    ext.do_domething = function(str) {
-      return str;
+    ext.hello = function(str) {
+      return 'Hello ' + str;
     };
 
     var descriptor = {
         blocks: [
-            ['r', 'do_something %s', 'do_something', 'sample text'],
+            ['r', 'hello %s', 'hello', 'Your name'],
         ]
     };
 
-    ScratchExtensions.register('Add one extension', descriptor, ext);
+    ScratchExtensions.register('Hello extension', descriptor, ext);
 })({});
