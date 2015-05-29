@@ -1,5 +1,12 @@
 # FFTT 218: ScratchX
 
+[Open fftt218.sbx](http://scratchx.org/?url=http://kano-e.github.io/fftt218-scratchx/fftt218.sbx)
+
+* Space or → : Next page
+* ↑ : Repeat current page
+* ← : First page
+
+
 ## 1
 
 * あいさつ
@@ -26,13 +33,15 @@
 
 ## 5
 
+* [Scratch](https://scratch.mit.edu/)
 * ブラウザで実際にブロックを配置して猫を動かすところまでやってみる
 
 ## 6
 
+* [ScratchX](http://scratchx.org)
 * 保存してある sbx ファイルを実行するか、拡張機能を読み込ませる
 * ドキュメントはしたのリンクから
-* すぐに試せるタンプルもある
+* すぐに試せるサンプルもある
 * ここでは [Text to Speech](http://scratchx.org/?url=http://sayamindu.github.io/scratch-extensions/text_to_speech_extension.js) の簡単なデモだけ
 
 ## 7
@@ -43,7 +52,7 @@
 * スクリプトを scratchx で読み込む
     * `More Blocks` > `Load Experimental Extension` から読み込む
     * `http://scratchx.org/?url=http://scratchx.org/?url=[公開済みのURL]` に直接リクエストしても
-* ドキュメント見ながらやればOK
+* [ドキュメント](https://github.com/LLK/scratchx/wiki)見ながらやればOK
     * 日本語だと [ScratchX 開発 はじめかた](http://mactkg.hateblo.jp/entry/2015/05/12/020537) という記事を見ればここまでのことはだいたい書いてある
  * github アカウントの話
     * クレジットカードなくても登録できて、無料で公開できるのはよい
@@ -56,21 +65,34 @@
         * https://github.com/kano-e/kano-e.github.io
         * https://github.com/kano-e/fftt218-scratchx/tree/gh-pages
     * http://kano-e.github.io/fftt218-scratchx/index.html
-* http://scratchx.org/?url=http://kano-e.github.io/fftt218-scratchx/scratchx-hello.js
+* http://kano-e.github.io/fftt218-scratchx/scratchx-hello.js
     * 中身の説明
     * `_shutdown()`
     * `_getStatus()`
     * `descriptor`
     * `Scratchextensions.register()`
+* http://scratchx.org/?url=http://kano-e.github.io/fftt218-scratchx/scratchx-hello.js
 * 実際に読み込んで動かしてみる
     * 猫を配置
     * 猫に hello の結果を喋らせる
 
 ## 9
 
-* 意識低い感じでも...
+* どうやって開発してるのみんなこれ
+    * ローカルから動作させられるのか？ とかもわからない
+    * ひょっとして、いちいち github に push しないといけない……？
+    * ドキュメントよくよく読んでないせいかもしれない
+* JS わからない
+    * そもそも JS よくわかってない
+    * デバッグの知識がさっぱりない
+    * 何が起こっているのかがわからない、困った
+* 面白そうなものはすでに誰かつくっているので、それらを試すだけでも楽しいかも
+    * いくつかの拡張機能を読み込んで組み合わせて……みたいに遊べる
+    * [http://sayamindu.github.io/scratch-extensions/](http://sayamindu.github.io/scratch-extensions/) のサンプルとか
+    * [日本語フォーラムにも情報あるよ](https://scratch.mit.edu/discuss/topic/115948/)
 
 ## 10
 
 * ...
+
 
